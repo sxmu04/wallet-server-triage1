@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from core import TransactionService, AccountService
+from wallet_server_triage.core import TransactionService, AccountService
 
 app = Flask(__name__)
 
